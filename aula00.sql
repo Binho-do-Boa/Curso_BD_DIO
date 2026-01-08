@@ -1,4 +1,4 @@
-### No caso estou usando data bese viagens 
+### No caso estou usando Data Base viagens 
 
 CREATE TABLE usuarios (
     id INT,
