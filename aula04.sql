@@ -1,3 +1,5 @@
+## aqui testando DROP e ALTER TABLE mas antes fazendo copia da tabela usuarios
+
 -- Criando nova tabela --
 
 CREATE TABLE usuarios_nova (
@@ -8,10 +10,11 @@ CREATE TABLE usuarios_nova (
   endereco VARCHAR(100) NOT NULL COMMENT 'Endereço do Cliente'
 );
 
--- Migrando os dados --
+-- Migrando os dados da tabela usuarios para usuarios_nova --
 
-INSERT INTO usuarios_nova
-SELECT * from usuarios;
+INSERT INTO usuarios_nova (id, nome, email, endereco, data_nascimento)
+SELECT id, nome, email, endereco, data_nascimento
+FROM usuarios;  
 
 -- Excluindo tabela anterior --
 DROP table usuarios;
