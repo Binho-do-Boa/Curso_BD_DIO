@@ -23,4 +23,4 @@ DROP table usuarios;
 ALTER TABLE usuarios_nova RENAME usuarios;
 
 -- Ou opção 2 : Alterar tamanho da coluna endereço -- 
-ALTER TABLE usuarios MODIFY COLUMN endereco VARCHAR(100);
+ALTER TABLE usuarios MODIFY COLUMN endereco VARCHAR(150);
