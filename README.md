@@ -1,15 +1,22 @@
-# Curso_BD_DIO
-Curso de Banco de Dados Relacional 
-Aqui vou colocar todos exercícios relacionados as atividades do curso da DIO (Santander) 
-Objetivo do curso é fornecer uma introdução aos Bancos de Dados Relacionais e desenvolver habilidades na criação, modelagem e consulta desses bancos.
+# Curso de Banco de Dados Relacional - DIO
 
-Alguns links úteis usados no curso
-Para Criar Diagramas
-https://app.creately.com/
-https://app.quickdatabasediagrams.com/
-Para criar o ambiente de estudo com banco e PHPMy Admin na nuvem 
-https://clients.cloudclusters.io/ 
+Este repositório contém todos os exercícios e atividades desenvolvidos durante o curso de Banco de Dados Relacional da **DIO (Santander)**.
 
+## 🎯 Objetivo
+O objetivo principal do curso é fornecer uma introdução sólida aos Bancos de Dados Relacionais, desenvolvendo habilidades essenciais em:
+* **Modelagem de dados** (Conceitual e Lógica).
+* **Criação de estruturas** (DDL - Data Definition Language).
+* **Manipulação e consulta de dados** (DML - Data Manipulation Language).
+---
+## 🔗 Links Úteis
+Abaixo estão as ferramentas sugeridas e utilizadas durante as aulas:
+
+### Modelagem e Diagramas (ER)
+* [Creately](https://app.creately.com/) - Ferramenta versátil para diagramas colaborativos.
+* [Quick Database Diagrams](https://app.quickdatabasediagrams.com/) - Ideal para criar modelos rapidamente via código.
+
+### Ambiente de Desenvolvimento
+* [CloudClusters](https://clients.cloudclusters.io/) - Utilizado para subir instâncias de MySQL e PHPMyAdmin na nuvem para testes e estudos.
 
 
 
